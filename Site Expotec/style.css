@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    background-color: rgba(6, 90, 90, 0.548);
+}
+section,footer {
+    padding:54px 0;
+  
+}
+
+.imgapre{
+    width: 300px;
+    height: auto;
+    margin-left: 28%;
+}
+
+.logo{
+    width: 220px;
+    height: 280px;
+}
+
+h3{
+    font-size: 50px;
+}
+p{
+    color: #f1ecec;
+    font-size: 20px;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.llo{
+    text-align: center;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: purple;
+    border: 2px solid purple;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+}
+
+.btn:focus{
+    outline: none;
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    color: aliceblue;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+nav ul a:not(.bnt)::after {
+    content: "";
+    background-color: rgb(96, 107, 255);
+    height: 3px;
+    width: 0%;
+    display:block ;
+    transition: 0.3s;   
+
+}
+nav ul a:hover::after{
+    width: 100%;
+}
+
+.banner{
+    display: flex;
+    
+
+}
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+
+}
+.banner .banner-text h1{
+    font-size: 96px;
+    color: white;
+}
+.banner .banner-text p{
+    font-size: 20px;
+    color: #b8d4ff;
+    font-weight: lighter;
+    margin: 18px 0;
+}
+
+.voce-expotec .container{
+    display: flex;
+    align-items:center;
+   
+}
+.voce-expotec .voce-expotec-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.voce-expotec .voce-expotec-text h3{
+    font-size: 56px;
+    
+}
+.voce-expotec .voce-expotec-img{
+    width: 50%;
+   
+}
+.voce-expotec .voce-expotec-text p{
+    margin:5px 0  10px 0;
+       
+}
+.voce-expotec .voce-expotec-img img{
+    width: 100%;
+   
+}
+.apresentacao h3{
+    text-align: center;
+}
+.apresentacao p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.noticias h3{
+    text-align: center;
+}
+.noticias p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.nots{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nots .nots-item{
+    background-color: rgb(0, 11, 77);
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.5s;
+}
+.nots .nots-item:hover{
+    background-color: rgb(233, 160, 248)255, 0, 200;
+    margin-top: -5px;
+}
+.sobre .container{
+    display: flex;
+    align-items: center;
+}
+.sobre .sobre-text{
+    width: 50%;
+    padding: 0 40px;
+}
+.sobre .sobre-text h3{
+    font-size: 56px;
+}
+.sobre .sobre-text p{
+    margin: 5px 0 10px 0;
+}
+.sobre .sobre-img{
+    width: 50%;
+}
+.sobre .sobre-img img{
+    width: 100%;
+}
+.redes{
+    background-color: rgb(177, 226, 255);
+    text-align: center;
+}
+
+.redes i{
+    color:black;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+table  > tr, th, td{
+    border: 1px solid black
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: purple;
+}
